@@ -1,0 +1,69 @@
+@{
+    ViewData["Title"] = "Temporizador";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<!-- Mostrar las IPs de las Raspberry Pi -->
+<h3>Seleccionar Raspberry Pi</h3>
+<form method="post" asp-action="IniciarTemporizador">
+    <div>
+        <label for="RaspberryPiIP">Seleccionar Raspberry Pi:</label>
+        <select id="RaspberryPiIP" name="RaspberryPiIP">
+            @foreach (var ip in ViewBag.RaspberryPis)
+            {
+                <option value="@ip">@ip</option>
+            }
+        </select>
+    </div>
+
+    <div>
+        <label for="Tiempo">Tiempo (en minutos):</label>
+        <input type="number" id="Tiempo" name="Tiempo" required />
+    </div>
+
+    <button type="submit">Iniciar Temporizador</button>
+</form>
+
+<hr />
+
+<!-- Formulario para iniciar el temporizador en todos los Raspberry Pis -->
+<h3>Iniciar Temporizador en Todos</h3>
+<form method="post" asp-action="IniciarTemporizadorTodos">
+    <div>
+        <label for="TiempoTodos">Tiempo (en minutos):</label>
+        <input type="number" id="TiempoTodos" name="TiempoTodos" required />
+    </div>
+
+    <div>
+        <label>Seleccionar todas las Raspberry Pi:</label>
+        @foreach (var ip in ViewBag.RaspberryPis)
+        {
+            <div>
+                <input type="checkbox" id="raspberryPiIPs" name="raspberryPiIPs" value="@ip" />
+                <label for="@ip">@ip</label>
+            </div>
+        }
+    </div>
+
+    <button type="submit">Iniciar en Todos</button>
+</form>
+
+<hr />
+
+<!-- Formulario para cerrar el temporizador -->
+<h3>Cerrar Temporizador en Raspberry Pi(s)</h3>
+<form method="post" asp-action="CerrarTemporizador">
+    <div>
+        <label>Seleccionar Raspberry Pi:</label>
+        @foreach (var ip in ViewBag.RaspberryPis)
+        {
+            <div>
+                <input type="checkbox" id="raspberryPiIP" name="raspberryPiIPs" value="@ip" />
+                <label for="@ip">@ip</label>
+            </div>
+        }
+    </div>
+
+    <button type="submit">Cerrar Temporizador</button>
+</form>

@@ -1,0 +1,60 @@
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\bin\Debug\net8.0\appsettings.json
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\bin\Debug\net8.0\Plataforma.staticwebassets.runtime.json
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\bin\Debug\net8.0\Plataforma.exe
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\bin\Debug\net8.0\Plataforma.deps.json
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\bin\Debug\net8.0\Plataforma.runtimeconfig.json
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\bin\Debug\net8.0\Plataforma.dll
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\bin\Debug\net8.0\Plataforma.pdb
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\obj\Debug\net8.0\Plataforma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\obj\Debug\net8.0\Plataforma.AssemblyInfoInputs.cache
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\obj\Debug\net8.0\Plataforma.AssemblyInfo.cs
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\obj\Debug\net8.0\Plataforma.csproj.CoreCompileInputs.cache
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\obj\Debug\net8.0\Plataforma.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\obj\Debug\net8.0\Plataforma.RazorAssemblyInfo.cache
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\obj\Debug\net8.0\Plataforma.RazorAssemblyInfo.cs
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\obj\Debug\net8.0\staticwebassets\msbuild.Plataforma.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\obj\Debug\net8.0\staticwebassets\msbuild.build.Plataforma.props
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Plataforma.props
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Plataforma.props
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\obj\Debug\net8.0\scopedcss\bundle\Plataforma.styles.css
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\obj\Debug\net8.0\scopedcss\projectbundle\Plataforma.bundle.scp.css
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\obj\Debug\net8.0\Plataforma.dll
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\obj\Debug\net8.0\refint\Plataforma.dll
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\obj\Debug\net8.0\Plataforma.pdb
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\obj\Debug\net8.0\Plataforma.genruntimeconfig.cache
+C:\Users\censi\OneDrive\Escritorio\Plataforma\Plataforma\obj\Debug\net8.0\ref\Plataforma.dll
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\bin\Debug\net8.0\appsettings.json
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\bin\Debug\net8.0\Plataforma.staticwebassets.runtime.json
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\bin\Debug\net8.0\Plataforma.exe
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\bin\Debug\net8.0\Plataforma.deps.json
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\bin\Debug\net8.0\Plataforma.runtimeconfig.json
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\bin\Debug\net8.0\Plataforma.dll
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\bin\Debug\net8.0\Plataforma.pdb
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\obj\Debug\net8.0\Plataforma.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\obj\Debug\net8.0\Plataforma.AssemblyInfoInputs.cache
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\obj\Debug\net8.0\Plataforma.AssemblyInfo.cs
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\obj\Debug\net8.0\Plataforma.csproj.CoreCompileInputs.cache
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\obj\Debug\net8.0\Plataforma.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\obj\Debug\net8.0\Plataforma.RazorAssemblyInfo.cache
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\obj\Debug\net8.0\Plataforma.RazorAssemblyInfo.cs
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\obj\Debug\net8.0\staticwebassets\msbuild.Plataforma.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\obj\Debug\net8.0\staticwebassets\msbuild.build.Plataforma.props
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Plataforma.props
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Plataforma.props
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\obj\Debug\net8.0\scopedcss\bundle\Plataforma.styles.css
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\obj\Debug\net8.0\scopedcss\projectbundle\Plataforma.bundle.scp.css
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\obj\Debug\net8.0\Plataforma.dll
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\obj\Debug\net8.0\refint\Plataforma.dll
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\obj\Debug\net8.0\Plataforma.pdb
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\obj\Debug\net8.0\Plataforma.genruntimeconfig.cache
+C:\Users\CENSI USMP\Desktop\Plataforma\Plataforma\obj\Debug\net8.0\ref\Plataforma.dll
