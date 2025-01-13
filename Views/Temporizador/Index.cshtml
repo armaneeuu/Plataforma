@@ -2,68 +2,111 @@
     ViewData["Title"] = "Temporizador";
 }
 
-<h2>@ViewData["Title"]</h2>
+<div class="container mt-4">
+    <h2 class="mb-4">@ViewData["Title"]</h2>
 
-<!-- Mostrar las IPs de las Raspberry Pi -->
-<h3>Seleccionar Raspberry Pi</h3>
-<form method="post" asp-action="IniciarTemporizador">
-    <div>
-        <label for="RaspberryPiIP">Seleccionar Raspberry Pi:</label>
-        <select id="RaspberryPiIP" name="RaspberryPiIP">
-            @foreach (var ip in ViewBag.RaspberryPis)
-            {
-                <option value="@ip">@ip</option>
-            }
-        </select>
+    <div class="card mb-4">
+        <div class="card-header bg-primary text-white">
+            <h3 class="mb-0">Seleccionar Raspberry Pi</h3>
+        </div>
+        <div class="card-body">
+            <form method="post" asp-action="IniciarTemporizador">
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="RaspberryPiIP" class="form-label">Seleccionar Raspberry Pi:</label>
+                        <select id="RaspberryPiIP" name="RaspberryPiIP" class="form-select">
+                            @foreach (var ip in ViewBag.RaspberryPis)
+                            {
+                                <option value="@ip">@ip</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="Tiempo" class="form-label">Tiempo (en minutos):</label>
+                        <input type="number" id="Tiempo" name="Tiempo" class="form-control" required min="1" />
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-play me-2"></i>Iniciar Temporizador
+                </button>
+            </form>
+        </div>
     </div>
 
-    <div>
-        <label for="Tiempo">Tiempo (en minutos):</label>
-        <input type="number" id="Tiempo" name="Tiempo" required />
+    <div class="card mb-4">
+        <div class="card-header bg-success text-white">
+            <h3 class="mb-0">Iniciar Temporizador en Todos</h3>
+        </div>
+        <div class="card-body">
+            <form method="post" asp-action="IniciarTemporizadorTodos">
+                <div class="mb-3">
+                    <label for="TiempoTodos" class="form-label">Tiempo (en minutos):</label>
+                    <input type="number" id="TiempoTodos" name="TiempoTodos" class="form-control" required min="1" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Seleccionar todas las Raspberry Pi:</label>
+                    <div class="border rounded p-3">
+                        <div class="row">
+                            @foreach (var ip in ViewBag.RaspberryPis)
+                            {
+                                <div class="col-md-4 mb-2">
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="raspberry_@ip" name="raspberryPiIPs" value="@ip" />
+                                        <label class="form-check-label" for="raspberry_@ip">@ip</label>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <button type="button" class="btn btn-outline-secondary me-2" onclick="selectAllRaspberryPis()">
+                        Seleccionar Todos
+                    </button>
+                    <button type="submit" class="btn btn-success">
+                        <i class="fas fa-play-circle me-2"></i>Iniciar en Todos
+                    </button>
+                </div>
+            </form>
+        </div>
     </div>
 
-    <button type="submit">Iniciar Temporizador</button>
-</form>
-
-<hr />
-
-<!-- Formulario para iniciar el temporizador en todos los Raspberry Pis -->
-<h3>Iniciar Temporizador en Todos</h3>
-<form method="post" asp-action="IniciarTemporizadorTodos">
-    <div>
-        <label for="TiempoTodos">Tiempo (en minutos):</label>
-        <input type="number" id="TiempoTodos" name="TiempoTodos" required />
+    <div class="card">
+        <div class="card-header bg-danger text-white">
+            <h3 class="mb-0">Cerrar Temporizador</h3>
+        </div>
+        <div class="card-body">
+            <form method="post" asp-action="CerrarTemporizador">
+                <div class="mb-3">
+                    <label class="form-label">Seleccionar Raspberry Pi:</label>
+                    <div class="border rounded p-3">
+                        <div class="row">
+                            @foreach (var ip in ViewBag.RaspberryPis)
+                            {
+                                <div class="col-md-4 mb-2">
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="close_@ip" name="raspberryPiIPs" value="@ip" />
+                                        <label class="form-check-label" for="close_@ip">@ip</label>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-danger">
+                    <i class="fas fa-stop-circle me-2"></i>Cerrar Temporizador
+                </button>
+            </form>
+        </div>
     </div>
+</div>
 
-    <div>
-        <label>Seleccionar todas las Raspberry Pi:</label>
-        @foreach (var ip in ViewBag.RaspberryPis)
-        {
-            <div>
-                <input type="checkbox" id="raspberryPiIPs" name="raspberryPiIPs" value="@ip" />
-                <label for="@ip">@ip</label>
-            </div>
+@section Scripts {
+    <script>
+        function selectAllRaspberryPis() {
+            const checkboxes = document.querySelectorAll('input[name="raspberryPiIPs"]');
+            const anyUnchecked = Array.from(checkboxes).some(cb => !cb.checked);
+            checkboxes.forEach(cb => cb.checked = anyUnchecked);
         }
-    </div>
-
-    <button type="submit">Iniciar en Todos</button>
-</form>
-
-<hr />
-
-<!-- Formulario para cerrar el temporizador -->
-<h3>Cerrar Temporizador en Raspberry Pi(s)</h3>
-<form method="post" asp-action="CerrarTemporizador">
-    <div>
-        <label>Seleccionar Raspberry Pi:</label>
-        @foreach (var ip in ViewBag.RaspberryPis)
-        {
-            <div>
-                <input type="checkbox" id="raspberryPiIP" name="raspberryPiIPs" value="@ip" />
-                <label for="@ip">@ip</label>
-            </div>
-        }
-    </div>
-
-    <button type="submit">Cerrar Temporizador</button>
-</form>
+    </script>
+}

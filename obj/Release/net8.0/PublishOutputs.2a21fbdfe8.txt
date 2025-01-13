@@ -1,0 +1,12 @@
+/home/vboxuser/Desktop/Plataforma/Plataforma/publish/Plataforma
+/home/vboxuser/Desktop/Plataforma/Plataforma/publish/publish/web.config
+/home/vboxuser/Desktop/Plataforma/Plataforma/publish/appsettings.Development.json
+/home/vboxuser/Desktop/Plataforma/Plataforma/publish/appsettings.json
+/home/vboxuser/Desktop/Plataforma/Plataforma/publish/publish/appsettings.Development.json
+/home/vboxuser/Desktop/Plataforma/Plataforma/publish/publish/appsettings.json
+/home/vboxuser/Desktop/Plataforma/Plataforma/publish/publish/Plataforma.deps.json
+/home/vboxuser/Desktop/Plataforma/Plataforma/publish/publish/Plataforma.runtimeconfig.json
+/home/vboxuser/Desktop/Plataforma/Plataforma/publish/Plataforma.dll
+/home/vboxuser/Desktop/Plataforma/Plataforma/publish/Plataforma.deps.json
+/home/vboxuser/Desktop/Plataforma/Plataforma/publish/Plataforma.runtimeconfig.json
+/home/vboxuser/Desktop/Plataforma/Plataforma/publish/Plataforma.pdb

@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\CENSI USMP\\.nuget\\packages\\": {}
+    "/home/vboxuser/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CENSI USMP\\Desktop\\Plataforma\\Plataforma\\Plataforma.csproj",
+      "projectUniqueName": "/home/vboxuser/Desktop/Plataforma/Plataforma/Plataforma.csproj",
       "projectName": "Plataforma",
-      "projectPath": "C:\\Users\\CENSI USMP\\Desktop\\Plataforma\\Plataforma\\Plataforma.csproj",
-      "packagesPath": "C:\\Users\\CENSI USMP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CENSI USMP\\Desktop\\Plataforma\\Plataforma\\obj\\",
+      "projectPath": "/home/vboxuser/Desktop/Plataforma/Plataforma/Plataforma.csproj",
+      "packagesPath": "/home/vboxuser/.nuget/packages/",
+      "outputPath": "/home/vboxuser/Desktop/Plataforma/Plataforma/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\CENSI USMP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/vboxuser/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -38,11 +38,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -67,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.111/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
